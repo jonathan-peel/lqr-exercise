@@ -1,0 +1,4 @@
+[submodule "notebooks/simulator"]
+	path = notebooks/simulator
+	url = https://github.com/duckietown/gym-duckietown
+	branch = daffy
