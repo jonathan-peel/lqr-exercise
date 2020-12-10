@@ -2,8 +2,8 @@
 *.pyc
 *.egg-info
 .idea/
-
+myenv
 xvfb.log
 bin
-
+.vscode
 trained_models
