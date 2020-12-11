@@ -59,7 +59,7 @@ class LRA2_HELPER():
         self.phi.append(x[1])
         self.u.append(u)
 
-    def saveData(self):
+    def saveData(self, file_name):
         """Save the control and the state data:
             - csv file: model_data.csv
             - format: x, u
@@ -72,4 +72,4 @@ class LRA2_HELPER():
         data['phi'] = self.phi
         data['u'] = self.u
 
-        data.to_csv('model_data.csv', index=False, header=True)
+        data.to_csv(file_name, index=False, header=True)
