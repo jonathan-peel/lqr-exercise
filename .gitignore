@@ -7,3 +7,5 @@ xvfb.log
 bin
 .vscode
 trained_models
+notebooks/.ipynb_checkpoints/*
+notebooks/gym-results/*
